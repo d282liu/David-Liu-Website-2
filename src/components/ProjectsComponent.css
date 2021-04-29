@@ -1,0 +1,31 @@
+.projects-container {
+    width: 100%;
+}
+
+.content-wrapper {
+    margin-top: 20px;
+    margin-left: 20%; 
+    margin-right: 20%;
+}
+
+.content-wrapper > h1{
+    color: black; 
+    font-size: 70px;
+    margin-bottom: 20px;
+    padding-top: 5vh;
+}
+
+
+@media screen and (max-width: 960px){
+    .content-wrapper > h1 {
+        font-size: 50px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .content-wrapper > h1 {
+        font-size: 50px;
+        margin-top: 20px;
+    }
+}
