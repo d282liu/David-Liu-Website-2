@@ -5,13 +5,17 @@ import AccordionDetails from '@material-ui/core/AccordionDetails';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import PTP from './PillarToPost.jpg';
+import SAC from './SAC.JPG';
+import EWB from './EWB.jpg';
+import GONGCHA from './GONGCHA.jpg';
 
 const useStyles = makeStyles((theme) => ({
   root: {
     width: '100%',
   },
   heading: {
-    fontSize: theme.typography.pxToRem(15),
+    fontSize: theme.typography.pxToRem(17),
     flexBasis: '33.33%',
     flexShrink: 0,
   },
@@ -21,6 +25,16 @@ const useStyles = makeStyles((theme) => ({
   },
   content: {
     marginLeft: '20px',
+  },
+  details: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  icons: {
+    width: '17vw',
+    marginRight: '30px',
+    borderRadius: '5px',
   },
 }));
 
@@ -44,7 +58,10 @@ export default function ControlledAccordions() {
           <Typography className={classes.secondaryHeading}>Pillar to Post Inc. - <em>January 2021 - April 2021</em></Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className = {classes.details}>
+          <div id = "image">
+            <img src = {PTP} className = {classes.icons} />
+          </div>
             <ul className = {classes.content}>
               <li>Designed, developed and iterated through smoke and regression test
               scripts before, during and after releases and deployments</li>
@@ -52,6 +69,10 @@ export default function ControlledAccordions() {
               communication with developers within Azure DevOps. Logged
               detailed write ups to verify fixes, or log new bugs found in
               investigations. Used Salesforce to perform IT tasks.</li>
+              <li>Implemented the use of the Selenium browser testing framework within Python
+              to write test scripts and introduce automated unit testing, increasing effiency of smoke and 
+              regression testing by 30%.
+              </li>
             </ul>
           </Typography>
         </AccordionDetails>
@@ -68,10 +89,16 @@ export default function ControlledAccordions() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className = {classes.details}>
+          <div id = "image">
+            <img src = {SAC} className = {classes.icons} />
+          </div>
             <ul className = {classes.content}>
-              <li>Led a council to run weekly events to bolster school spirit</li>
+              <li>Led a council of 16 elected students to run weekly events to bolster school spirit</li>
               <li>Organized semi-formal and homecoming for 1500 students</li>
+              <li>Established a fully fleshed House System to increase attendance at 
+              SAC events by 40%
+              </li>
             </ul>
           </Typography>
         </AccordionDetails>
@@ -88,8 +115,14 @@ export default function ControlledAccordions() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className = {classes.details}>
+          <div id = "image">
+            <img src = {EWB} className = {classes.icons} />
+          </div>
             <ul className = {classes.content}>
+              <li>Worked with University EWB chapters as well as the National Board of EWB 
+              to start one of the first official EWB Highschool chapters in the nation.
+              </li>
               <li>Ochestrated weekly discussions and workshops to introduce
               students to engineering in order to adress root causes of
               global poverty and inequality in areas of need</li>
@@ -109,10 +142,14 @@ export default function ControlledAccordions() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography className = {classes.details}>
+          <div id = "image">
+            <img src = {GONGCHA} className = {classes.icons} />
+          </div>
           <ul className = {classes.content}>
               <li>Working in a team to fulfill orders with quality while
               maintaining exemplary customer service under pressure</li>
+              <li>Make yummy drinks!</li>
             </ul>
           </Typography>
         </AccordionDetails>

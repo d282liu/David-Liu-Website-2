@@ -17,7 +17,14 @@ function AboutMeComponent() {
             <h1>About Me</h1>
             <div className = 'content-wrapper'>
                 <img src = { davidLiu } alt = "David Liu Image" />
-                <p className={classes.secondaryHeading}>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,</p>
+                <p className={classes.secondaryHeading}>
+                    Hello! My name is David Liu and I am a student studying Systems Design Engineering (SYDE) at the University of Waterloo (very ex-syde-ing!)
+                    I am an aspiring Software Engineer and Designer, and love everything tech. I am always looking for creative and innovative solutions to the problems all 
+                    around us in this day and age, and welcome any opportunities allow me to do just that. While I am not out thinking about how to improve the 
+                    world (which I admit is not all the time), I enjoy photography, swimming, badminton, video games and playing/listening to music! If you would
+                    like to get to know me a bit more, feel free to contact me at any of my socials (linked at the bottom) and we can perhaps set up a meeting over
+                    a warm bowl of Pho and some good bubble tea. 
+                </p>
             </div>
         </div>
     )
