@@ -19,7 +19,7 @@ function Footer() {
                 <div className = 'social-media-wrap'>
                     <a href = "mailto: d282liu@waterloo.ca" className = 'icon'>
                         <i class="fas fa-envelope"></i>
-                        <h3 className={classes.secondaryHeading}>Shoot me an Email: david.liu2@uwaterloo.ca</h3> 
+                        <h3 className={classes.secondaryHeading}>Shoot me an Email @david.liu2@uwaterloo.ca</h3> 
                     </a>
                     <a href = "https://github.com/d282liu" className = 'icon'>
                         <i class="fab fa-github"></i>
@@ -29,7 +29,7 @@ function Footer() {
                         <i class="fab fa-linkedin"></i>
                         <h3 className={classes.secondaryHeading}>Join my network</h3> 
                     </a>
-                    <a href = "DAVID LIU RESUME MARCH.pdf" download className = 'icon'>
+                    <a href = "DAVID LIU RESUME DEV - MAY 2021.pdf" download className = 'icon'>
                     <i class="fas fa-briefcase"></i>
                         <h3 className={classes.secondaryHeading}>Resume</h3> 
                     </a>

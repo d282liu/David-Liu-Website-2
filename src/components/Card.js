@@ -7,6 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
+import CORUNNA from './CoRunna.JPG';
 import DOJO from './DOJO.png';
 import CULTURE from './CultureApp.PNG';
 import CHANGE from './change.jpg';
@@ -31,6 +32,27 @@ export default function MediaCard() {
     <Grid container direction = "row"  spacing = {3} className =  {classes.gridContainer}>
       <Grid item className={classes.gridItem} md = {4} sm = {6} xs = {12} >
       <Card className={classes.root}>
+      <CardActionArea href="https://devpost.com/software/corunna" target="_blank"> 
+        <CardMedia
+          className={classes.media}
+          image = { CORUNNA }
+          title="CoRunna - TOHacks 2021"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+            CoRunna 
+            <p><small>TOHacks 2021</small></p>
+          </Typography>
+          <Typography variant="body2" color="textSecondary" component="p">
+          <p>Cooperated within a team to build a web app to map out the safest and most socially distant route for users to navigate the city during the pandemic</p>
+          <p>Built using React, NodeJS and the Google API</p>
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+    </Card>
+      </Grid>
+      <Grid item className={classes.gridItem} md = {4} sm = {6} xs = {12} >
+      <Card className={classes.root}>
       <CardActionArea href="https://devpost.com/software/dojo-web-app" target="_blank"> 
         <CardMedia
           className={classes.media}
@@ -45,7 +67,7 @@ export default function MediaCard() {
           <Typography variant="body2" color="textSecondary" component="p">
           <p>Worked in a team to develop a video calling web application
           where users can share skills with one another.</p>
-          <p>Built with React, HTML and CSS, leveraging the Vonage API</p>
+          <p>Built with React, NodeJS, HTML and CSS, leveraging the Vonage API</p>
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -75,7 +97,7 @@ export default function MediaCard() {
       </Grid>
       <Grid item className={classes.gridItem} md = {4} sm = {6} xs = {12} >
       <Card className={classes.root}>
-      <CardActionArea href="https://bit.ly/3nn7OMs" target="_blank">
+      <CardActionArea href="https://d282liu.github.io/changeApp.html" target="_blank">
           <CardMedia
             className={classes.media}
             image={ CHANGE }
@@ -97,7 +119,7 @@ export default function MediaCard() {
       </Grid>
       <Grid item className={classes.gridItem} md = {4} sm = {6} xs = {12} >
       <Card className={classes.root}>
-      <CardActionArea>
+      <CardActionArea href="https://docs.google.com/document/d/1eQGdg8EL06QFJhvUn3h1ZIqzwkwp4kP13VKcPjnu3sI/edit?usp=sharing" target="_blank">
         <CardMedia
           className={classes.media}
           image={ VERIDIAN }

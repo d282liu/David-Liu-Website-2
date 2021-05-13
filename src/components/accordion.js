@@ -73,6 +73,9 @@ export default function ControlledAccordions() {
               to write test scripts and introduce automated unit testing, increasing effiency of smoke and 
               regression testing by 30%.
               </li>
+              <li>Created an interactive video course to document the daily responsibilities and tasks of 
+              the IT Team. Decreased the time taken to onboard new team members by 40% 
+              </li>
             </ul>
           </Typography>
         </AccordionDetails>
