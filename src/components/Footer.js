@@ -29,7 +29,7 @@ function Footer() {
                         <i class="fab fa-linkedin"></i>
                         <h3 className={classes.secondaryHeading}>Join my network</h3> 
                     </a>
-                    <a href = "DAVID LIU RESUME DEV - MAY 2021.pdf" download className = 'icon'>
+                    <a href = "DAVID LIU RESUME 1B - MAY 2021.pdf" download className = 'icon'>
                     <i class="fas fa-briefcase"></i>
                         <h3 className={classes.secondaryHeading}>Resume</h3> 
                     </a>
